@@ -1,0 +1,10 @@
+set realname = "Rick Veens"
+
+source ~/.mutt/accounts/gmail
+
+set header_cache =~/.mutt/cache/headers
+set message_cachedir =~/.mutt/cache/bodies
+set certificate_file =~/.mutt/certificat
+
+set move = no
+set imap_keepalive = 900
