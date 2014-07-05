@@ -149,8 +149,8 @@ bar {
         status_command i3status
 }
 
-# Wallpaper
-exec --no-startup-id feh --big-scale /usr/share/backgrounds/Beach_by_Renato_Giordanelli.jpg
+exec --no-startup-id gnome-settings-daemon
+exec --no-startup-id nm-applet
+exec --no-startup-id gnome-sound-applet
 
-# Lockscreen
-bindsym Ctrl+Shift+l exec i3lock
+bindsym $mod+Shift+o exec "gnome-screensaver-command --lock "
